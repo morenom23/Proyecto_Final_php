@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+
+}
+
+header{
+    height: 75px;
+    width: 100%;
+    background-color: rgb(48, 24, 80);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 300px;
+    justify-content: center;
+    margin-left: 100px;
+    overflow: hidden;
+    
+    
+    
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-right: -5px;
+    
+
+}
+
+.logo p { 
+    margin-left: 20px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul{
+    justify-content: center;
+    display: flex;
+    /* border: 1px solid palevioletred; */
+}
+
+.navbar ul li{
+    margin: 40px 10px;
+    align-items: center;
+   
+}
+
+.navbar ul li a{
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar .sublista{
+    display: none;
+}
+
+.navbar img{
+    width: 25px;
+    height: 25px;
+       
+} 
+
+.navbar .entrar{
+    margin: 0 20px 0 3px;
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar .usuario{
+    background-color: white;
+    border-radius: 50%;
+    /* padding: 0px; */
+    margin: 0px 7px;
+    display: flex;
+}
+
+.section1{
+    display: flex;
+    width: 100%;
+    background-image: url(../Imagenes/fondo.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+    
+
+}
+
+.cyberkid{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 310px;
+    margin: 80px 0px 0px 130px;
+    border-radius: 30px;
+    /* background-color: rgb(151, 77, 219); */
+    background-color: #7469B6;
+    color: white;
+    padding: 30px 60px;
+    justify-content: space-between;
+    z-index: 1;
+    
+}
+
+.cyberkid p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cyberkid h2{
+    font-size: 70px;
+    line-height: 1;
+}
+
+.cyberkid a{
+    background-color: white;
+    width: 120px;
+    padding: 12px 8px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #7469B6;
+    font-weight: 600;
+    border: 1px groove white;
+    text-align: center;
+    transition: .2s ease-in-out;
+}
+
+.cyberkid a:hover{
+  background-color: #7469B6;
+  color: white;
+}
+
+.cyberk10{
+    width: 536px;
+    height: 689px;
+    display: flex;
+    border-radius: 20px;
+    margin-left: -80px;
+    margin-top: 80px; 
+    
+}
+
+.cyberk10 img{
+    border-radius: 20px;
+    box-shadow: 5px 20px 40px 0px;
+
+}
+
+main .mas_vendidos{
+    display: flex;
+    margin-top: 160px;
+    margin-bottom: 50px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+main .mas_vendidos h2{
+    font-size: 40px;
+    margin-left: 130px;
+}
+
+main .mas_vendidos a{
+    margin-right: 130px;
+    padding: 7px 30px;
+    background-color: white;
+    border-radius: 40px;
+    font-weight: 600;
+    color: #7469B6;
+    border: 2px solid white;
+    transition: .2s ease-in-out;
+}
+
+main .mas_vendidos a:hover{
+    background-color: #7469B6;
+    color: white;
+}
+
+/* CARRUSEL */
+
+
+.carousel-container {
+    width: 87%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 70px; 
+    
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.item {
+    flex: 0 0 24%; 
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+}
+
+.item_contenedorimg{
+  overflow: hidden;
+  height: 70%;
+}
+
+.item_contenedorimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: .2s ease-in-out;
+}
+
+.item img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.title {
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 500;
+    
+}
+
+.price {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 5px 35px;
+    background-color: #7469B6;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    transition: .2s ease-in-out;
+}
+
+.button:hover{
+  background-color: rgb(137, 55, 214);
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow.left {
+    left: 0;
+}
+
+.arrow.right {
+    right: 0;
+}
+
+
+
+  /* CATEGORIAS -----------------------*/
+
+  .categorias{
+    color: white;
+    background-color: rgb(43, 42, 42);
+    padding-bottom: 50px;
+
+  }
+  .categorias h2{
+    font-size: 40px;
+    margin-left: 130px;
+    padding-top: 60px;
+    
+  }
+
+  .cont_categoria{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    
+  }
+
+  .cont_categoria .card{
+    width: 30%;
+    height: 470px;
+    margin: 50px 0px ;
+    overflow: hidden;
+    
+    
+  }
+
+  .card .card_img{
+    height: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+    
+  }
+
+  .card p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+
+  }
+
+  .card .card_img img:hover{
+    transition: .4s all ease-in-out;
+    transform: scale(1.2);
+    opacity: .6 ;
+    cursor: pointer;
+    
+  }
+
+  .card .card_img img{
+    width: 100%;
+    height: 100%;
+    transition: .4s all ease-in-out;
+    
+    
+  }
+
+  /* OFERTA DE LA SEMANA -----------*/
+
+  .ofertas_semana{
+    color: white;
+
+  }
+
+  /* GASTA - AHORRA -------------*/
+
+  .gasta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 550px;
+    overflow: hidden;
+    
+    
+  }
+
+  .gasta img{
+    width: 100%;
+    opacity: .6;
+    position: absolute;
+    height: 90%;
+    
+
+  }
+
+  @keyframes show {
+    from { 
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: .6;
+        scale: 100%;
+    }
+  }
+
+  .gasta img {
+
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 20% cover 30%;
+    animation-fill-mode: both;
+
+  }
+
+  .gasta .gasta_ahorra{
+    position: absolute;
+    font-size: 75px;
+    font-weight: 600;
+    margin-top: -80px;
+
+  }
+
+  .gasta span{
+    font-size: 20px;
+    margin-top: 40px;
+    position: absolute;
+  }
+
+  .gasta a{
+    color:  white;
+    padding: 5px 15px;
+    background-color: #7469B6;
+    border-radius: 20px;
+    margin: 50px 0px;
+    position: absolute;
+    margin-top: 300px;
+    font-weight: 600;
+    border: 2PX solid #7469B6;
+    transition:  .2s ease-in-out;
+    
+  }
+
+  .gasta a:hover{
+    background-color: white;
+    color: #7469B6;
+  }
+
+  /* BOLETÍN ------------------- */
+
+  .boletin-container{
+    margin: 70px 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .boletin-container img{
+    opacity: .3;
+    position: absolute;
+    object-fit: cover;
+
+  }
+
+  .boletin-container h2{
+    font-size: 47px;
+    z-index: 1;
+    margin-top: 70px;
+    
+  }
+
+  .boletin-container p{
+    max-width: 20%;
+    text-align: center;
+    z-index: 1;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .boletin-container .titulo-email{
+    margin: 50px 0px 8px 0px;
+  }
+
+  .form-boletin{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 37%;
+    border: 2px groove white;
+    border-radius: 10px;
+
+  }
+
+  .form-boletin input{
+    background: transparent;
+    color: white;
+    text-align: center;
+    padding: 12px 0px;
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+    border-bottom: 2px solid white;
+  }
+  
+  .form-boletin button{
+    padding: 12px 0px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px groove white;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .form-boletin button:hover{
+    background-color: #7469B6;
+    color: white;
+    transition: .3s ease-in-out;
+    
+    
+  }
+
+  /* STACK DE IMAGENES--------- */
+
+  .stack_juegos{
+    
+    background: linear-gradient( to right, rgb(124, 81, 241), rgb(101, 10, 187),  rgb(136, 49, 218));
+    position: absolute;
+    width: 100%;
+    padding-bottom: 120px;
+
+  }
+
+  .stack_juegos img{
+    margin-top: -120px;
+    
+  }
+  
+  
+
+  /* FOOTER --------------- */
+
+
+
+footer{
+  position: relative;
+  margin-top: 365px;
+  color: white;
+  
+}
+
+
+#scrollBtn {
+  display: none; 
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99; 
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20PX;
+  border-radius: 50%;
+}
+
+#scrollBtn:hover {
+  background-color: #555;
+}
+
+footer .caja1{
+  margin: 0 auto;
+  padding-top: 90px;
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  
+  
+}
+
+.caja1 .logo_pie{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.logo_pie img{
+  margin-top: 25px;
+  width: 100px;
+  height: 100px;
+}
+
+.logo_pie p{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer .caja1 h4{
+  margin-bottom: 20px;
+}
+
+footer .caja1 a{
+  margin: 10px 0px;
+  color: white;
+  font-size: 14px;
+}
+
+.colum_productos ul li{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.colum_tienda{
+  width: 210px;
+  
+}
+
+.colum_tienda p{
+  margin-bottom: 15px;
+}
+
+.colum_tienda .info_email{
+  cursor: pointer;
+}
+
+.colum_politicas ul li{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+footer .linea{
+  margin: 60px 0px 30px 0px;
+  width: 90%;
+  opacity: .3;
+  transform-origin: center 0.5px;
+  
+  
+}
+
+footer .caja2{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0px;
+  
+}
+
+.medios_pagos img{
+  margin: 20px 25px 0px 0px;
+}
+
+.caja2 .redes ul li{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  
+}
+.caja2 .redes a{
+  background-color: white;
+  margin-right: 40px;
+  display: flex;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  padding: 1px;
+  
+  
+
+}
+
+footer .copy{
+  background-color: white;
+  color: black;
+  margin-top: 50px;
+  padding: 12px 0px;
+  font-size: 14px;
+}

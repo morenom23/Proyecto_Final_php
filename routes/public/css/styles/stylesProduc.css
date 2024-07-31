@@ -1,0 +1,285 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(48, 24, 80);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 300px;
+    justify-content: center;
+    margin-left: 100px;
+    overflow: hidden;
+    
+    
+    
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-right: -5px;
+    
+
+}
+
+.logo p { 
+    margin-left: 20px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid palevioletred; */
+}
+
+.navbar ul{
+    justify-content: center;
+    display: flex;
+    /* border: 1px solid palevioletred; */
+}
+
+.navbar ul li{
+    margin: 40px 10px;
+    align-items: center;
+   
+}
+
+.navbar ul li a{
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar .sublista{
+    display: none;
+}
+
+.navbar img{
+    width: 25px;
+    height: 25px;
+       
+} 
+
+.navbar .entrar{
+    margin: 0 20px 0 3px;
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar .usuario{
+    background-color: white;
+    border-radius: 50%;
+    /* padding: 0px; */
+    margin: 0px 7px;
+    display: flex;
+}
+
+.section1{
+    display: flex;
+    width: 100%;
+    background-image: url(../Imagenes/fondo.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+    
+
+}
+
+
+table {
+    width: 50%;
+    height: 450px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+th, td {
+    border: 1px solid aqua;
+    padding: 8px;
+    text-align: left;
+    color: white;
+    text-align: center;
+}
+th {
+    background-color: rgb(48, 24, 80);
+    color: white;
+    text-align: center;
+}
+
+.VidMap {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+
+footer{
+    position: relative;
+    margin-top: 365px;
+    color: white;
+    
+  }
+  
+  
+  #scrollBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99; 
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20PX;
+    border-radius: 50%;
+  }
+  
+  #scrollBtn:hover {
+    background-color: #555;
+  }
+  
+  footer .caja1{
+    margin: 0 auto;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    
+    
+  }
+  
+  .caja1 .logo_pie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+  }
+  
+  .logo_pie img{
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .logo_pie p{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  footer .caja1 h4{
+    margin-bottom: 20px;
+  }
+  
+  footer .caja1 a{
+    margin: 10px 0px;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .colum_productos ul li{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .colum_tienda{
+    width: 210px;
+    
+  }
+  
+  .colum_tienda p{
+    margin-bottom: 15px;
+  }
+  
+  .colum_tienda .info_email{
+    cursor: pointer;
+  }
+  
+  .colum_politicas ul li{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  footer .linea{
+    margin: 60px 0px 30px 0px;
+    width: 90%;
+    opacity: .3;
+    transform-origin: center 0.5px;
+    
+    
+  }
+  
+  footer .caja2{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0px;
+    
+  }
+  
+  .medios_pagos img{
+    margin: 20px 25px 0px 0px;
+  }
+  
+  .caja2 .redes ul li{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .caja2 .redes a{
+    background-color: white;
+    margin-right: 40px;
+    display: flex;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    
+    
+  
+  }
+  
+  footer .copy{
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    padding: 12px 0px;
+    font-size: 14px;
+  }

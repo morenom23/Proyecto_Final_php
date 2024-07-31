@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+
+}
+
+/* FORMULARIO DE REGISTRO------------------------------- */
+
+.caja-formularios{
+    height: 100vh;
+    /* padding-top: 70px; */
+    background-image: url(https://images2.alphacoders.com/626/626052.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.cont-form-registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(5%);
+    
+}
+
+form{
+    margin: 0 auto;
+    max-width: 16%;
+    color: white;
+    border-top: 1px groove blueviolet;
+    box-shadow: 0px 5px 0px 3px blueviolet;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    
+}
+
+form:hover{
+    box-shadow: 0px 5px rgb(76, 151, 236), 0px 3px rgb(76, 151, 236);
+    border-left: 0.5px solid white;
+    border-right: 0.5px solid white;
+}
+
+form h2{
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    color: white; 
+    
+}
+
+form label{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+form .imputs{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    
+}
+
+.anclaPie_form{
+    color: rgb(76, 151, 236);
+    transition: 0.4s all;
+}
+.anclaPie_form:hover{
+    color: white;
+}
+
+
+
+::placeholder{
+    color: rgb(77, 76, 76);
+}
+.imputs input{
+    padding: 4px;
+    border-radius: 5px;
+    border-color: blueviolet;
+    background-color: transparent;
+    color: white;
+    transition: 0.5s;
+    
+}
+
+
+.btn-registro{
+    padding: 4px 8px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px ;
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+    
+}
+
+.btn-registro:hover{
+    background-color: white;
+    color: blueviolet;
+   
+    
+}
+
+footer{
+    box-shadow: 0px 0px 10px blueviolet;
+    margin-top: 10px;
+    
+}
+
+.cont-form-login{
+    transform: translateY(10%);
+    
+   
+}
+
+.cont-form-login form h2{
+    text-decoration: underline;
+    margin-bottom: 30px;
+    
+}
+
+.cont-form-login form .btn-registro{
+    margin-top: 20px;
+    
+}
+
+.error_login{
+    color: red;
+}
